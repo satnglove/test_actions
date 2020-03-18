@@ -19,7 +19,7 @@ jobs:
     name: Merge
     steps:
       - name: Integration check
-        uses: squalrus/merge-bot@v0.2.0
+        uses: squalrus/merge-bot@v0.4.1
         with:
           GITHUB_TOKEN: ${{ secrets.token }}
           test: true
