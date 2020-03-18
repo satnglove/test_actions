@@ -22,9 +22,9 @@ jobs:
         uses: squalrus/merge-bot@v0.4.1
         with:
           GITHUB_TOKEN: ${{ secrets.token }}
-          test: true
+          test: false
           reviewers: true
           labels: ready, merge
           blocking-labels: do not merge
           checks: true
-          method: squash
+          method: merge
